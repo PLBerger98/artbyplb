@@ -1,0 +1,69 @@
+baseURL: https://localhost # todo: change site url.
+title: art by plb
+defaultContentLanguage: 'en'
+theme: eternity
+googleAnalytics: '' # todo: set your analytics id.
+
+params:
+  image: /images/banner.png
+  logo: logo.png # todo: add your custom logo to static/
+  subtitle: Eternity is a minimalist Hugo theme designed for portfolio sites with a fresh feel. # todo: change default subtitle for your website.
+  copyright: All rights reserved.
+  author: PLB
+  dontShowSource: false # please, do not do this :)
+  portfolio:
+    columns:
+      desktop:
+        default: 3
+      mobile:
+        default: 2
+  socials:
+    - icon: 'far fa-envelope fa-lg'
+      url: 'mailto:paul.lorenz.1@gmx.de'
+      landing: true
+    - icon: 'fab fa-instagram fa-lg'
+      url: 'https://www.instagram.com/artbyplb/'
+      landing: true
+  landingpage: / 
+  homepage: /acryl/
+  specialPages:
+    - acryl
+    - office
+    - doodles
+  bypassWelcomePage: false # redirects "/" to "homepage" when it's true.
+  plausible: '' # todo: set your plausible id.
+  disableWelcomePageBackground: false # disables the background image on the homepage
+  disableRadius: false
+  moveIt: false # Moves Title and Meta info down, only visible when scroll.
+  disableAlwaysResize: false
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: tags
+
+permalinks:
+  work: ":filename/"
+
+# todo: uncomment menu.main array after you create contents.
+menu:
+  main:
+    - name: acryl
+      url: /acryl/
+      weight: 1
+    - name: office
+      url: /office/
+      weight: 2
+    - name: doodles
+      url: /doodles/
+      weight: 3
+    - name: about
+      url: /about/
+      weight: 4
+    #- name: ex
+    #  url: /ex/
+    #  weight: 5
