@@ -5,4 +5,4 @@ command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 [context.production.environment]
 HUGO_VERSION = "0.112.0"
 HUGO_ENV = "production"
-HUGO_ENABLEGITINFO = "true"
+HUGO_ENABLE_GIT_INFO = "true"
