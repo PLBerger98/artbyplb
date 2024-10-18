@@ -40,7 +40,7 @@ hideExif: true
 	-
 	</p>
 	<p>
-		Berger versteht sich und seine Kunst als Entertainment. Nicht jeder der sich für Kunst begistern lässt muss sich von seiner Kunst beigeistern lassen. Er will mit seiner abstrakten Kunst Begeisterung auslösen, aber nicht um jeden Preis
+		Berger versteht sich und seine Kunst als Entertainment. Nicht jeder der sich für Kunst begeistern lässt muss sich von seiner Kunst begeistern lassen. Er will mit seiner abstrakten Kunst Begeisterung auslösen, aber nicht um jeden Preis
 	</p>
 	<p>
 	-
