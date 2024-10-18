@@ -1,4 +1,4 @@
-baseURL: https://localhost # todo: change site url.
+baseURL: https://https://artbyplb.netlify.app/ # todo: change site url.
 title: art by plb
 defaultContentLanguage: 'en'
 theme: eternity
